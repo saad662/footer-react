@@ -1,4 +1,5 @@
 <h1>footer-react</h1>
+<img src="https://img.shields.io/npm/dm/footer-react" alt="Downloads per month">
 
 <img src="https://i.pinimg.com/originals/06/5c/38/065c38aa3d95a16e8df0709b94bd411a.png" alt="Footer Image">
 
