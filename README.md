@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1>footer-react</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://i.pinimg.com/originals/06/5c/38/065c38aa3d95a16e8df0709b94bd411a.png" alt="Footer Image">
 
-## Available Scripts
+<blockquote>
+  <p>A customizable footer component for React.</p>
+</blockquote>
 
-In the project directory, you can run:
+<p>This package provides a React component for creating a customizable footer for your web applications.</p>
 
-### `npm start`
+<h2>Installation</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>You can install this package using npm:</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<pre><code>npm install footer-react
+</code></pre>
 
-### `npm test`
+<h2>Usage</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>To use this package in your React application, you can import the <code>Footer</code> component and include it in your app.</p>
 
-### `npm run build`
+<pre><code>import React from 'react';
+import Footer from 'footer-react';
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+function App() {
+  return (
+    &lt;div&gt;
+      {/* Your main application content */}
+      &lt;Footer /&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Author</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ul>
+  <li>Username: saad662</li>
+  <li>Email: saadamin662@gmail.com</li>
+</ul>
 
-### `npm run eject`
+<h2>License</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>This package is licensed under the ISC License.</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Issues and Contributions</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>If you encounter any issues or have suggestions for improvements, please <a href="https://github.com/saad662/footer-react/issues">open an issue</a> on GitHub.</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>Contributions are welcome! Feel free to create a pull request.</p>
 
-## Learn More
+<hr>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>This package is available on <a href="https://www.npmjs.com/package/footer-react">npm</a>. If you find it useful, please consider leaving a star on GitHub and a review on npmjs.com.</p>
