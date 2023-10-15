@@ -1,9 +1,15 @@
 {
   "name": "footer-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "ISC",
-  "description": "React Footer",
-  "keywords": ["React"],
+  "keywords": ["React", "footer", "web development", "UI", "responsive", "customizable", "footer component", "React footer", "frontend", "open source"],
+  "author": "saad662",
+  "description": "A highly customizable and responsive React footer component for web applications.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saad662/footer-react"
+  },
   "dependencies": {
     "mapbox-gl": "^2.15.0",
     "react": "^18.2.0",
