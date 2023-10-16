@@ -165,3 +165,21 @@ footer {
     background-color: #f5f5f5;
     /* Set a background color for the map container */
 }
+
+@media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+    }
+    .leftFooter, .midFooter, .rightFooter {
+      width: 100%;
+      text-align: center;
+    }
+    .subscribe-container input[type="email"] {
+      font-size: 1.0vmax; /* Reduce font size for the email input */
+    }
+    /* Hide social icons on smaller screens */
+    .social-icons {
+      display: none;
+    }
+    /* Add more specific adjustments as needed */
+  }
